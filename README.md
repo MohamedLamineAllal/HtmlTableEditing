@@ -18,8 +18,12 @@ node server
 to start the server.
 
 
+To insall through npm:
+```
+npm i html-table-editing --save
+```
 
-Here an example that show how you use the library (later we will document the library better)
+Here an example that show how you use the library (later we will document the library better) [from the demo, check github repo]
 
 ```html
 <script src="DataTables/datatables.min.js"></script>
@@ -138,6 +142,30 @@ app.post('/api/editing', function (req, res) {
 Those snippet are from the demo, you can check the demo, and test it.
 
 
+
+For use with module loaders (es6, commonjs, node require ...)
+```javascript
+module.exports = {
+	HtmlTableEditing,
+	isOfTagName,
+	isWithinAnElOfTagType_get,
+	is_containedIn_OrEqual,
+	addClass,
+	removeClass,
+	hasClass,
+	toggleClass
+}
+```
+those are the element that are exported.
+
+To require/import HtmlTableEditing class
+```js
+const HtmlTableEditing = require('html-table-editing').HtmlTableEditing; // require
+//or
+const { HtmlTableEditing } = require('html-table-editing');
+
+import { HtmlTableEditing } from 'html-table-editing'; // es6|typescript loader
+```
 
 
 Note The library do the job, but still not all mature yet, it's just the begining. 

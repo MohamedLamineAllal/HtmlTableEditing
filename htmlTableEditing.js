@@ -595,6 +595,10 @@ var HtmlTableEditing = function (tableDOM, options)  {
 }
 
 
+
+
+
+
 function is_containedIn_OrEqual(contained, container) {
 	var node = contained;
 	while (node != null) {
@@ -721,6 +725,24 @@ function removeElementFromArray_Mutate(sourceArray, elementsToRemoveArray) {
 		}
 	}
 }
+
+
+
+
+
+
+module.exports = {
+	HtmlTableEditing,
+	isOfTagName,
+	isWithinAnElOfTagType_get,
+	is_containedIn_OrEqual,
+	addClass,
+	removeClass,
+	hasClass,
+	toggleClass
+}
+
+
 
 
 
