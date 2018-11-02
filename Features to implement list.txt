@@ -1,0 +1,7 @@
+listen for click, included with the editor automatically, (delegation included). Make a method to pass a callback to handle the click. 
+Also add ability in parametrisation, to choose if cell get updated automatically, or should be done manually through the callback (.editCell())
+
+More parametrisation, to choose to edit cell, edit line, edit whole table, edit from to ..etc
+
+
+Refactoring, methods to prototype

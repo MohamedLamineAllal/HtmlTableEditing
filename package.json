@@ -1,0 +1,28 @@
+{
+  "name": "htmltableediting",
+  "version": "1.0.0",
+  "description": "a quick model to add editing ability for an html table cells with flexible way and ajax handling ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html_table",
+    "editing",
+    "flexible",
+    "js",
+    "datatable-editor",
+    "ajax call"
+  ],
+  "author": "Allal Mohamed Lamine",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "datatable": "^2.0.2",
+    "jquery": "^3.3.1",
+    "mysql": "^2.15.0"
+  }
+}

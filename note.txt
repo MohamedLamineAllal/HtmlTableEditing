@@ -1,0 +1,58 @@
+use inline editing!!!
+
+see if the per data type function is a per cell (if not make a per cell function )
+
+==> have both mode per cell and per row modif
+
+==> build for any html table
+
+=> have a derived library special for datatable, or just include those functionallity also there !!!
+ see
+
+ =+> when we click an el  to modify ! ! !  we get what row and header domel and also row header el!  and cell dom!
+
+
+ about datatable what do we need:
+=======================================
+ =+> when we click an el  to modify ! ! !  we get what row and header domel and also row header el!  and cell dom!  also we apply the change through datatable cell api
+
+
+
+
+
+========================================>
+one cell editing!
+then one line editing!
+and with popup !
+
+
+
+==> function to detect row ==> if there is row header => row identified by it's header
+if not by number child position
+
+function to get row header dom  (from rowDOM, from ceilDOM)
+|| ...      headername
+
+function for column header dom
+||                   headername
+
+function get row dom from ceildom
+
+editCeil function (activate edit and event listner!) different mods
+updateCeil function
+
+
+have a class, you give the table it apply the listners and make the table ready
+[use delegation! pagination don't get lost!]
+
+
+
+
+
+
+
+    Detect click on row (you've already done this)
+    Get the data from the row (not at all hard)
+    Populate a form with that data (probably within a modal)
+    Update the server with the new values once the form is submitted
+    Update the row once the server has been updated
