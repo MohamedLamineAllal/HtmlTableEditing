@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A library that make any html table editable, with built in ajax capability, riche api, and helpers, error handling, flexible undo capability and more. Built for a need to use it with Datatable.js library. But it work in all situation for any html table.",
   "main": "htmlTableEditing.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedLamineAllal/HtmlTableEditing.git"
+  },
   "keywords": [
     "html_table",
     "editing",
@@ -11,6 +15,9 @@
     "datatable-editor",
     "ajax call"
   ],
-  "author": "Mohamed Lamine Allal",
-  "license": "MIT"
+  "author": "Mohamed Lamine Allal <allaldevelopment@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohamedLamineAllal/HtmlTableEditing/issues"
+  }
 }
