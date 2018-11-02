@@ -1,6 +1,6 @@
 # HtmlTableEditing
 
-A library that make any html table editable, wiht built in ajax capability, riche api, and helpers, error handling, flexible undo capability and more. Built for a need to use it with Datatable.js library. But it work in all situation for any html table.
+A library that make any html table editable, with built in ajax capability, riche api, and helpers, error handling, flexible undo capability and more. Built for a need to use it with Datatable.js library. But it work in all situation for any html table.
 
 You find in demo folder, a demo, you can try it. 
 
